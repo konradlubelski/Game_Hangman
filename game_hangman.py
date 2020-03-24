@@ -1,7 +1,5 @@
-
 import random
 import collections
-
 
 def code_of_hangamn_game():   
     list_of_words=['victory','python','code','computer','knife','mouse','language','calculator',
@@ -44,29 +42,4 @@ def code_of_hangamn_game():
         if input_letter.isalpha()==False or len(input_letter)!=1:
             print("\nYou didn't enter a single letter. Please try again ")
         
-
 code_of_hangamn_game()
-
-'''
-def check_index_of_word():
-    random_word="calculator"
-    player_chances=5
-    while player_chances>0:
-        input_letter=input("Input letter")
-        if input_letter in random_word:
-            for index in range(len(random_word)):
-                if random_word[index] == input_letter:
-                    print(random_word[index])
-                else:
-                    print("-", end="")
-                    
-        else:
-            print("You dont guess the letter in word")
-            player_chances -=1
-            print(player_chances)
-
-    
-    
-
-check_index_of_word()
-'''
